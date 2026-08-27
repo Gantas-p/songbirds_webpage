@@ -9,9 +9,9 @@ export default function Hero() {
         Histon Songbirds — a women’s singing group in Histon
       </h1>
       <p className="hero__lede">
-        An unhurried evening of singing together for women and mothers. No
+        A relaxed evening of singing together for women. No
         experience, no audition, no need to read music. Come as you are, sing,
-        and go home lighter than you arrived.
+        and go home feeling lighter.
       </p>
 
       <p className="hero__facts">

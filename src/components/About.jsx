@@ -9,10 +9,10 @@ export default function About() {
       <div className="section__body">
         <h2>About us</h2>
         <p>
-          Histon Songbirds is a friendly women’s singing group in the village of
+          Histon Songbirds is a friendly women’s singing circle in the village of
           Histon, just north of Cambridge. We meet every Monday during
           term time to sing together — a mix of gentle harmonies,
-          rounds and simple circle songs.
+          rounds and uplifting songs.
         </p>
         <p>
           It began as a small group of friends who wanted an excuse to get together and 
@@ -22,7 +22,7 @@ export default function About() {
         <p>
           There is no audition and no pressure to perform. 
           The songs are taught by ear, in a "call-and-response" style.
-          If you have been meaning to sing again, or to try it for the first time, 
+          If you have been meaning to sing again, or to try for the first time, 
           this is a safe place to start.
         </p>
 

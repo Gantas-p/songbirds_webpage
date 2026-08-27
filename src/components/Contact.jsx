@@ -12,7 +12,7 @@ export default function Contact() {
         <h2>Get in touch</h2>
         <p>
           Questions about coming along, bringing children, or anything else?
-          Email us and one of the group will reply.
+          Please email me and I will get back to you.
         </p>
         <p className="contact__email">
           <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>

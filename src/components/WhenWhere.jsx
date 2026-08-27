@@ -34,16 +34,21 @@ export default function WhenWhere() {
           <div>
             <dt>Getting there</dt>
             <dd>
-              There is free parking on nearby streets and the church is a short
-              walk from the Histon guided busway stop. The main entrance is step
-              free.
+              There is free parking on nearby streets and the st Andrews centre is across the road
+              from a number 8 bus stop. The main entrance is step
+              free, however the hall is up one flight of stairs.
             </dd>
           </div>
           <div>
             <dt>What to bring</dt>
             <dd>
-              Just yourself and a bottle of water. All songs and words are
-              provided, and you never have to sing alone.
+              Just yourself and a bottle of water.
+            </dd>
+          </div>
+                    <div>
+            <dt>Upcoming dates</dt>
+            <dd>
+              5th October, 12th October, 19th October
             </dd>
           </div>
         </dl>
