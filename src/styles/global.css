@@ -280,39 +280,17 @@ main {
 
 /* --- definition lists (when & where, faq) -------------------------- */
 
+/* Both lists use the same treatment: the term is a bold serif label, the
+   value is smaller, muted, and indented under a soft left rule; pairs are
+   separated by space rather than hairline dividers. */
 .details,
 .faq__list {
   display: grid;
+  gap: 2.5rem;
   margin-top: 1.5rem;
 }
 
-.details {
-  gap: 1.5rem;
-}
-
-.details dt {
-  font-family: var(--font-heading);
-  font-size: 1.15rem;
-  color: var(--text);
-  margin-bottom: 0.25rem;
-}
-
-.details dd {
-  margin: 0;
-  color: var(--text-muted);
-}
-
-.details address {
-  font-style: normal;
-  margin-bottom: 0.35rem;
-}
-
-/* FAQ: question reads as a bold serif prompt, answer as a quiet indented
-   reply, pairs separated by space rather than rules. */
-.faq__list {
-  gap: 2.5rem;
-}
-
+.details dt,
 .faq__item dt {
   font-family: var(--font-heading);
   font-size: 1.3rem;
@@ -322,12 +300,18 @@ main {
   margin-bottom: 0.5rem;
 }
 
+.details dd,
 .faq__item dd {
   margin: 0;
   padding-left: 1rem;
   border-left: 2px solid var(--line);
   font-size: 1rem;
   color: var(--text-muted);
+}
+
+.details address {
+  font-style: normal;
+  margin-bottom: 0.35rem;
 }
 
 /* --- placeholder image ------------------------------------------------ */
