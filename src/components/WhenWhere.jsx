@@ -1,0 +1,55 @@
+import { SESSION, VENUE } from '../config'
+
+export default function WhenWhere() {
+  const address = `${VENUE.name}, ${VENUE.streetAddress}, ${VENUE.locality}, ${VENUE.postalCode}`
+
+  return (
+    <section id="when-where" className="section when-where">
+      <div className="section__body">
+        <h2>When &amp; where</h2>
+
+        <dl className="details">
+          <div>
+            <dt>When</dt>
+            <dd>
+              {SESSION.dayText} at {SESSION.timeText}, {SESSION.termText}.{' '}
+              {SESSION.arriveText}.
+            </dd>
+          </div>
+          <div>
+            <dt>Where</dt>
+            <dd>
+              <address>
+                {VENUE.name}
+                <br />
+                {VENUE.streetAddress}, {VENUE.locality}
+                <br />
+                {VENUE.region} {VENUE.postalCode}
+              </address>
+              <a href={VENUE.mapUrl} target="_blank" rel="noopener noreferrer">
+                Open in maps
+              </a>
+            </dd>
+          </div>
+          <div>
+            <dt>Getting there</dt>
+            <dd>
+              There is free parking on nearby streets and the church is a short
+              walk from the Histon guided busway stop. The main entrance is step
+              free.
+            </dd>
+          </div>
+          <div>
+            <dt>What to bring</dt>
+            <dd>
+              Just yourself and a bottle of water. All songs and words are
+              provided, and you never have to sing alone.
+            </dd>
+          </div>
+        </dl>
+
+        <p className="visually-hidden">Full address: {address}</p>
+      </div>
+    </section>
+  )
+}
