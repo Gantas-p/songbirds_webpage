@@ -10,22 +10,20 @@ export default function About() {
         <h2>About us</h2>
         <p>
           Histon Songbirds is a friendly women’s singing group in the village of
-          Histon, just north of Cambridge. We meet one evening a week during
-          term time to sing together — a mix of folk songs, gentle harmonies,
-          rounds and the odd familiar tune everyone already knows.
+          Histon, just north of Cambridge. We meet every Monday during
+          term time to sing together — a mix of gentle harmonies,
+          rounds and simple circle songs.
         </p>
         <p>
-          It began as a small group of mothers who wanted an hour that was just
-          for them, in good company, doing something that lifts the spirits.
-          That is still the heart of it. You do not need to be a singer, and you
-          certainly do not need to be a mother — all women are welcome. Babies
-          and children are welcome to come along too.
+          It began as a small group of friends who wanted an excuse to get together and 
+          do something that lifts the spirits. That is still the heart of it. 
+          You do not need to be a singer — all voices are welcome.
         </p>
         <p>
-          There is no audition and no pressure to perform. We learn by ear, we
-          laugh a fair amount, and we make a sound together that is bigger and
-          warmer than any of us on our own. If you have been meaning to sing
-          again, or to try it for the first time, this is a soft place to start.
+          There is no audition and no pressure to perform. 
+          The songs are taught by ear, in a "call-and-response" style.
+          If you have been meaning to sing again, or to try it for the first time, 
+          this is a safe place to start.
         </p>
 
         <Placeholder
