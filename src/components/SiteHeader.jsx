@@ -13,18 +13,20 @@ const LINKS = [
 export default function SiteHeader() {
   return (
     <header className="site-header">
-      <a className="site-header__name" href="#top">
-        {SITE.name}
-      </a>
-      <nav className="site-header__nav" aria-label="Sections">
-        <ul>
-          {LINKS.map(({ href, label }) => (
-            <li key={href}>
-              <a href={href}>{label}</a>
-            </li>
-          ))}
-        </ul>
-      </nav>
+      <div className="site-header__inner">
+        <a className="site-header__name" href="#top">
+          {SITE.name}
+        </a>
+        <nav className="site-header__nav" aria-label="Sections">
+          <ul>
+            {LINKS.map(({ href, label }) => (
+              <li key={href}>
+                <a href={href}>{label}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
     </header>
   )
 }

@@ -21,7 +21,8 @@
     Arial, sans-serif;
 
   /* Rhythm */
-  --measure: 42rem; /* comfortable reading width */
+  --measure: 42rem; /* comfortable reading width (body text) */
+  --content: 64rem; /* masthead + hero — the outer content column */
   --page: 72rem; /* outer max width */
   --space: clamp(1rem, 0.6rem + 2vw, 2rem);
   --section-y: clamp(3.5rem, 2rem + 7vw, 6.5rem);
@@ -119,15 +120,20 @@ h3 {
   position: sticky;
   top: 0;
   z-index: 10;
+  padding: 0.9rem var(--space);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--line);
+}
+
+.site-header__inner {
+  max-width: var(--content);
+  margin-inline: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
   gap: 0.5rem 1.5rem;
-  padding: 0.9rem var(--space);
-  background: color-mix(in srgb, var(--bg) 88%, transparent);
-  backdrop-filter: blur(6px);
-  border-bottom: 1px solid var(--line);
 }
 
 .site-header__name {
@@ -199,17 +205,17 @@ main {
 }
 
 .hero__inner {
-  max-width: 64rem;
+  max-width: var(--content);
   margin-inline: auto;
   display: grid;
-  gap: clamp(1.75rem, 1rem + 4vw, 3.5rem);
+  gap: clamp(1.5rem, 1rem + 3vw, 2.75rem);
 }
 
 @media (min-width: 52rem) {
   .hero__inner {
-    grid-template-columns: 1.05fr 0.95fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: clamp(2rem, 5vw, 4rem);
+    gap: clamp(1.75rem, 3vw, 2.75rem);
   }
 }
 
@@ -274,8 +280,12 @@ main {
   text-align: left;
 }
 
+/* Cap the illustration and keep it to the inner (text) side of its column, so
+   the two halves sit close together rather than leaving a gap down the middle. */
 .hero__media img {
+  display: block;
   width: 100%;
+  max-width: 21rem;
   height: auto;
   aspect-ratio: 4 / 5;
   object-fit: contain;
@@ -283,8 +293,12 @@ main {
 
 @media (max-width: 51.99rem) {
   .hero__media {
-    max-width: 20rem;
+    max-width: 17rem;
     margin-inline: auto;
+  }
+
+  .hero__media img {
+    max-width: 100%;
   }
 }
 
