@@ -192,49 +192,77 @@ main {
 /* --- hero -------------------------------------------------------------- */
 
 .hero {
-  max-width: var(--page);
-  margin-inline: auto;
-  padding: clamp(3.5rem, 2rem + 9vw, 7rem) var(--space) var(--section-y);
+  padding: clamp(2.75rem, 1.5rem + 5vw, 4.5rem) var(--space)
+    clamp(2.5rem, 1.5rem + 4vw, 3.75rem);
   text-align: center;
+  background: linear-gradient(180deg, var(--surface), var(--bg) 85%);
+  border-bottom: 1px solid var(--line);
 }
 
-.hero__eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.18em;
-  font-size: 0.78rem;
-  color: var(--accent-strong);
-  margin-bottom: 1.25rem;
+.hero__inner {
+  max-width: 46rem;
+  margin-inline: auto;
 }
 
 .hero__title {
-  font-size: clamp(2.1rem, 1.4rem + 3.6vw, 3.4rem);
-  max-width: 26ch;
-  margin-inline: auto;
+  font-size: clamp(2.3rem, 1.7rem + 3vw, 3.4rem);
+  line-height: 1.08;
+}
+
+.hero__subtitle {
+  margin-top: 0.7rem;
+  font-family: var(--font-heading);
+  font-size: clamp(1.1rem, 1rem + 0.6vw, 1.35rem);
+  color: var(--text-muted);
+}
+
+.hero__rule {
+  width: 3rem;
+  height: 1px;
+  margin: 1.5rem auto;
+  border: 0;
+  background: var(--accent);
+  opacity: 0.55;
 }
 
 .hero__lede {
-  margin: 1.5rem auto 0;
-  max-width: 46ch;
+  margin: 0 auto;
+  max-width: 42ch;
   color: var(--text-muted);
-  font-size: 1.1rem;
+  font-size: 1.05rem;
+}
+
+.hero__meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.15rem;
+  margin-top: 1.75rem;
 }
 
 .hero__facts {
-  margin-top: 2rem;
   font-family: var(--font-heading);
-  font-size: 1.2rem;
+  font-size: 1.15rem;
+  line-height: 1.4;
   color: var(--text);
 }
 
 .hero__facts-muted {
+  display: block;
+  margin-top: 0.1rem;
   font-family: var(--font-body);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--text-muted);
 }
 
-.hero__cta,
-.hero__cta.cta-pending {
-  margin-top: 2.25rem;
+/* In the hero the booking note is grouped tight with the facts, so drop the
+   standalone-panel look it has elsewhere. */
+.hero__meta .cta-pending {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 0.95rem;
 }
 
 /* --- call to action -------------------------------------------------- */
@@ -265,10 +293,6 @@ main {
   border-radius: 12px;
   font-size: 0.98rem;
   color: var(--text-muted);
-}
-
-.hero .cta-pending {
-  margin-inline: auto;
 }
 
 /* --- about ---------------------------------------------------------- */
