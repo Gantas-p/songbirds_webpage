@@ -10,6 +10,10 @@ export const FAQ = [
     a: 'No. You do not need to read music or have any training. If you can hum along to a song on the radio, you can sing with us. We learn everything by ear, together.',
   },
   {
+    q: 'What is a Singing circle?',
+    a: 'A singing circle is a community gathering where people sit or stand in a circle and sing together for connection, wellness and shared expression rather than for performance or concert preparation ',
+  },
+  {
     q: 'Do I need to audition?',
     a: 'Never. There are no auditions and no tryouts. Come as you are.',
   },
@@ -23,18 +27,18 @@ export const FAQ = [
   },
   {
     q: 'How much does it cost?',
-    a: 'The cost for each term is shown on the booking page. If cost is ever a barrier, please get in touch — we will always try to help.',
+    a: '£7 per session. If cost is ever a barrier, please get in touch — we will always try to help.',
   },
   {
     q: 'Where exactly do you meet, and is there parking?',
-    a: 'We meet at St Andrew’s Church on Church Street in Histon. There is free parking nearby and the church is a short walk from the guided busway.',
+    a: 'We meet at St Andrew’s centre on School Hill in Histon. The room is up the stairs on the right once you enter the building. Look out for signs! There is free street parking nearby and the centre is a short walk from the no 8 bus stop.',
   },
   {
     q: 'Do you meet during the school holidays?',
     a: 'We run during Cambridgeshire school term time and take a break during the holidays. The booking page lists the dates for the current term.',
   },
   {
-    q: 'Is the group only for mothers?',
-    a: 'No. All women are welcome, whether or not you have children. Mothers and children are especially welcome, but you do not need to be a parent to join.',
+    q: 'I have a question that is not answered here.',
+    a: 'Please get in touch and I will do my best to help.',
   },
 ]
