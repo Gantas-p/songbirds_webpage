@@ -332,12 +332,6 @@ main {
   color: var(--text-muted);
 }
 
-/* --- about ---------------------------------------------------------- */
-
-.about__image {
-  margin-top: 2.5rem;
-}
-
 /* --- definition lists (when & where, faq) -------------------------- */
 
 /* Both lists use the same treatment: the term is a bold serif label, the
@@ -372,54 +366,6 @@ main {
 .details address {
   font-style: normal;
   margin-bottom: 0.35rem;
-}
-
-/* --- placeholder image ------------------------------------------------ */
-
-.placeholder {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.9rem;
-  width: 100%;
-  background:
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 10px,
-      color-mix(in srgb, var(--accent) 8%, transparent) 10px,
-      color-mix(in srgb, var(--accent) 8%, transparent) 20px
-    ),
-    var(--bg);
-  border: 1px dashed color-mix(in srgb, var(--accent) 55%, var(--line));
-  border-radius: 14px;
-  color: var(--text-muted);
-  text-align: center;
-  padding: 1.5rem;
-}
-
-.placeholder__mark {
-  width: 2.25rem;
-  height: 2.25rem;
-  border-radius: 50%;
-  border: 1.5px solid var(--accent);
-  position: relative;
-  background: var(--bg);
-}
-
-.placeholder__mark::after {
-  content: '';
-  position: absolute;
-  inset: 0.5rem;
-  border-radius: 50%;
-  background: var(--accent);
-  opacity: 0.5;
-}
-
-.placeholder__label {
-  font-size: 0.85rem;
-  max-width: 22ch;
 }
 
 /* --- footer --------------------------------------------------------- */

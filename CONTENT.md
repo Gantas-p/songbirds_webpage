@@ -109,22 +109,22 @@ search engines use to understand what Histon Songbirds is.
 
 ## 4. Photos
 
-Right now every photo spot shows a striped placeholder box. To use a real
-picture:
+The only image on the page right now is the songbirds illustration in the hero
+(`public/images/hero-songbirds.png`) and the social share image below. To add a
+photo to a section — for example under the About paragraphs:
 
-1. Put the image file in **`public/images/`** (make the folder if it isn't
-   there). Use a `.jpg`, keep it under about 500 KB, and around 1600 pixels
-   wide is plenty.
-2. In the section's file (e.g. `src/components/About.jsx`), replace the
-   `<Placeholder ... />` line with:
+1. Put the image file in **`public/images/`**. Use a `.jpg`, keep it under about
+   500 KB, and around 1600 pixels wide is plenty.
+2. In the section's file (e.g. `src/components/About.jsx`), add an `<img>` where
+   you want it — for About, just before the closing `</div>`:
 
    ```jsx
    <img
-     className="about__image"
      src="/images/your-photo.jpg"
      alt="Describe what is in the photo, e.g. the group singing together"
      width="1600"
      height="900"
+     style={{ marginTop: '2rem', borderRadius: '12px' }}
    />
    ```
 

@@ -1,5 +1,3 @@
-import Placeholder from './Placeholder'
-
 // The story of the group. This section is also the main place search engines
 // learn what Histon Songbirds is, so the copy names plainly what it is and who
 // it is for. Edit the words to sound like you — just keep it warm and clear.
@@ -15,22 +13,16 @@ export default function About() {
           rounds and uplifting songs.
         </p>
         <p>
-          It began as a small group of friends who wanted an excuse to get together and 
-          do something that lifts the spirits. That is still the heart of it. 
+          It began as a small group of friends who wanted an excuse to get together and
+          do something that lifts the spirits. That is still the heart of it.
           You do not need to be a singer — all voices are welcome.
         </p>
         <p>
-          There is no audition and no pressure to perform. 
+          There is no audition and no pressure to perform.
           The songs are taught by ear, in a "call-and-response" style.
-          If you have been meaning to sing again, or to try for the first time, 
+          If you have been meaning to sing again, or to try for the first time,
           this is a safe place to start.
         </p>
-
-        <Placeholder
-          className="about__image"
-          label="A calm photo of the group singing together"
-          ratio="16 / 9"
-        />
       </div>
     </section>
   )
