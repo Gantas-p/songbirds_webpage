@@ -10,7 +10,7 @@ you cannot damage anything permanently, every version is saved in git.
 
 ---
 
-## 1. The booking link, contact email, times and address
+## 1. The booking link, times, address and contact form
 
 Open **`src/config.js`**. Everything in there is meant to be edited. Each setting
 has a note above it explaining what it is. The important ones:
@@ -51,10 +51,22 @@ If you change the time, **also** update the 24-hour version just below it
 In the `VENUE` block. If you only have the church name confirmed and not the
 exact postcode, it is fine to leave the postcode as-is for now and fix it later.
 
-### Change the contact email
+### The contact form
 
-In the `CONTACT` block. The mailbox `contact@histonsongbirds.com` still needs to
-be set up — until it is, email sent there will bounce.
+The "Get in touch" section is a form, handled by **Formspree**. When someone
+sends a message it arrives in the inbox you registered with Formspree — there is
+no email address on the page.
+
+- **Change where messages go, or add another recipient:** log in at
+  [formspree.io](https://formspree.io) and edit the form's settings. Nothing in
+  the code changes.
+- **The free plan allows 50 messages a month.** Formspree emails you if you're
+  close to the limit.
+- The only thing in the code is the form's ID (`FORMSPREE_ID` in
+  `src/config.js`) — the last part of the Formspree endpoint. You'd only change
+  this if you made a brand-new form.
+- First time: Formspree sends you a one-off "confirm this form" email — click it
+  or messages won't come through.
 
 ### Add an Instagram or Facebook page
 
@@ -157,7 +169,8 @@ deployed.
 | I want to… | File |
 | --- | --- |
 | Add / change the booking link | `src/config.js` |
-| Change day, time, address, email | `src/config.js` |
+| Change day, time, address | `src/config.js` |
+| Change where contact messages go | Formspree dashboard (not the code) |
 | Edit a FAQ | `src/data/faq.js` |
 | Reword the welcome / about text | `src/components/*.jsx` |
 | Add a photo | `public/images/` + the section's file |

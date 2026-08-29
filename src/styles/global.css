@@ -14,6 +14,7 @@
   --accent: #6e8a99;
   --accent-strong: #47646f;
   --line: #dce4e7;
+  --error: #a8564c; /* muted terracotta — form errors */
 
   /* Type */
   --font-heading: 'EB Garamond', Georgia, 'Times New Roman', serif;
@@ -309,10 +310,18 @@ main {
   background: var(--accent-strong);
   color: #fff;
   text-decoration: none;
+  font-family: inherit;
   font-size: 1.02rem;
   padding: 0.85rem 1.8rem;
+  border: 0;
   border-radius: 999px;
+  cursor: pointer;
   transition: background 150ms ease;
+}
+
+.cta:disabled {
+  opacity: 0.6;
+  cursor: default;
 }
 
 .cta:hover {
@@ -388,6 +397,97 @@ main {
   margin-top: 0.75rem;
   font-size: 0.9rem;
   color: var(--text-muted);
+}
+
+/* --- contact form -------------------------------------------------- */
+
+.contact-form {
+  margin-top: 1.75rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.contact-form__row {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.contact-form label {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  color: var(--text);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  font: inherit;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.6rem 0.7rem;
+}
+
+.contact-form textarea {
+  min-height: 7rem;
+  resize: vertical;
+}
+
+.contact-form input:focus-visible,
+.contact-form textarea:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 1px;
+  border-color: var(--accent-strong);
+}
+
+.contact-form .cta {
+  justify-self: start;
+}
+
+.contact-form__note {
+  margin-top: -0.4rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.contact-form__error {
+  font-size: 0.9rem;
+  color: var(--error);
+}
+
+/* Honeypot — visually and audibly hidden, but not display:none (bots skip
+   those). */
+.contact-form__gotcha {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.contact-form__done {
+  margin-top: 1.75rem;
+  padding: 1.1rem 1.25rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.contact-form__done-title {
+  margin-bottom: 0.2rem;
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  color: var(--text);
+}
+
+.contact__social {
+  margin-top: 1.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
 }
 
 /* --- motion --------------------------------------------------------- */

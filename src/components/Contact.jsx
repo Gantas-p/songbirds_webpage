@@ -1,4 +1,5 @@
-import { CONTACT, SOCIAL } from '../config'
+import { SOCIAL } from '../config'
+import ContactForm from './ContactForm'
 
 export default function Contact() {
   const socials = [
@@ -12,11 +13,11 @@ export default function Contact() {
         <h2>Get in touch</h2>
         <p>
           Questions about coming along, bringing children, or anything else?
-          Please email me and I will get back to you.
+          Send a message and I’ll get back to you.
         </p>
-        <p className="contact__email">
-          <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>
-        </p>
+
+        <ContactForm />
+
         {socials.length > 0 && (
           <ul className="contact__social">
             {socials.map(({ label, href }) => (

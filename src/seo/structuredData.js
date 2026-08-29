@@ -4,7 +4,7 @@
 // You should not need to edit this file — it reads everything from
 // src/config.js and src/data/faq.js. Update those instead.
 
-import { SITE, SESSION, VENUE, CONTACT, EVENTBRITE_URL, SOCIAL } from '../config'
+import { SITE, SESSION, VENUE, EVENTBRITE_URL, SOCIAL } from '../config'
 import { FAQ } from '../data/faq'
 
 const sameAs = [SOCIAL.instagram, SOCIAL.facebook].filter(Boolean)
@@ -29,7 +29,6 @@ const organization = {
   description: SITE.tagline,
   url: SITE.url,
   genre: 'Choral',
-  email: CONTACT.email,
   areaServed: ['Histon', 'Impington', 'Cambridge', 'Cambridgeshire'],
   location: place,
   ...(sameAs.length ? { sameAs } : {}),

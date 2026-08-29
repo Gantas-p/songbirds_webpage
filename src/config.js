@@ -42,10 +42,11 @@ export const VENUE = {
   mapUrl: 'https://www.google.com/maps/search/?api=1&query=St+Andrew%27s+Church+Histon+CB24+9EP',
 }
 
-// How people get in touch. This mailbox will be set up later.
-export const CONTACT = {
-  email: 'contact@histonsongbirds.com',
-}
+// The contact form is handled by Formspree (formspree.io). Messages are
+// forwarded to whatever email address the form is set to in the Formspree
+// dashboard — change recipients there, not here. This is just the form's ID,
+// the last part of its endpoint URL (https://formspree.io/f/THIS).
+export const FORMSPREE_ID = 'xbgjlpwl'
 
 // Paste your Eventbrite link between the quotes when it is ready, e.g.
 //   export const EVENTBRITE_URL = 'https://www.eventbrite.co.uk/e/....'

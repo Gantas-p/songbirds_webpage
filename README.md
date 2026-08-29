@@ -40,7 +40,7 @@ Press `Ctrl+C` to stop it.
 ```
 index.html                 page shell (charset, icons); title/SEO come from React
 src/
-  config.js                ← site settings: booking link, contact, venue, times
+  config.js                ← site settings: booking link, Formspree id, venue, times
   data/faq.js              ← the FAQ questions and answers
   App.jsx                  page layout: which sections appear, in what order
   components/              one file per section (Hero, About, WhenWhere, …)
@@ -48,9 +48,13 @@ src/
   seo/structuredData.js    builds the Google structured data from config + faq
   styles/global.css        all styling; colours are the variables at the top
 public/
-  favicon.svg, apple-touch-icon.png, og-image.png
+  favicon.png, apple-touch-icon.png, og-image.png
   robots.txt, sitemap.xml
 ```
+
+The contact form posts to **[Formspree](https://formspree.io)** — the one
+third-party service the site uses. Messages go to the address configured in the
+Formspree dashboard; see [CONTENT.md](./CONTENT.md).
 
 ## Branches & deployment
 
