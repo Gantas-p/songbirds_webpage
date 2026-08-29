@@ -138,11 +138,20 @@ h3 {
 }
 
 .site-header__name {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-family: var(--font-heading);
   font-size: 1.35rem;
   color: var(--text);
   text-decoration: none;
   letter-spacing: 0.02em;
+}
+
+.site-header__mark {
+  width: auto;
+  height: 1.9rem;
+  flex: none;
 }
 
 .site-header__nav ul {

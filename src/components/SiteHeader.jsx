@@ -15,6 +15,7 @@ export default function SiteHeader() {
     <header className="site-header">
       <div className="site-header__inner">
         <a className="site-header__name" href="#top">
+          <img className="site-header__mark" src="/images/bird-mark.png" alt="" />
           {SITE.name}
         </a>
         <nav className="site-header__nav" aria-label="Sections">
