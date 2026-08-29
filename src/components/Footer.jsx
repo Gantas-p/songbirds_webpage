@@ -11,11 +11,7 @@ export default function Footer() {
       </p>
       <p className="site-footer__meta">
         We meet at{' '}
-        <a
-          href="https://standrewshiston.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={VENUE.mapUrl} target="_blank" rel="noopener noreferrer">
           {VENUE.name}, {VENUE.locality}
         </a>
         . © {year} {SITE.name}.
