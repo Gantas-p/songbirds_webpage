@@ -58,9 +58,10 @@ public/
 - `main` — production. What is live.
 - Flow: work on `dev` → when stable, merge `dev` → `main`.
 
-Deployment is not set up yet. The plan: connect the repo to Netlify with
-production branch `main`, build command `npm run build`, publish directory
-`dist/`, then point `histonsongbirds.com` at Netlify.
+Pushing to `main` triggers a GitHub Actions build that deploys to GitHub Pages,
+live at `histonsongbirds.com` within a few minutes. The domain and DNS are on
+Cloudflare (DNS only). Full details, settings, and troubleshooting are in
+**[DEPLOY.md](./DEPLOY.md)**.
 
 ## After the site is live — search visibility
 
