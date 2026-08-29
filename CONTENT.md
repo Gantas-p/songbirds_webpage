@@ -48,8 +48,9 @@ If you change the time, **also** update the 24-hour version just below it
 
 ### Change the venue or address
 
-In the `VENUE` block. If you only have the church name confirmed and not the
-exact postcode, it is fine to leave the postcode as-is for now and fix it later.
+In the `VENUE` block — the group meets at St Andrew’s Centre, School Hill,
+Histon, Cambridge CB24 9JE. Change any field there and it updates on the page,
+in the map link, and in the information Google reads.
 
 ### The contact form
 

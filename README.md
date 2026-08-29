@@ -78,9 +78,9 @@ are code:
    Singing group / Choir). This is the biggest single lever.
 2. Add the site to **Google Search Console** and submit `sitemap.xml`.
    Do the same in **Bing Webmaster Tools**.
-3. Get links from local pages that already rank: St Andrew's Church, Histon &
-   Impington Parish Council directory, HI HUB, `achurchnearyou.com`, local
-   Facebook groups.
+3. Get links from local pages that already rank: St Andrew's, Histon
+   (standrewshiston.org, which runs the venue), the Histon & Impington Parish
+   Council directory, HI HUB, `achurchnearyou.com`, local Facebook groups.
 4. Keep the name, address and contact details written **identically** everywhere
    they appear online.
 5. Ask a few early members to leave a Google review.

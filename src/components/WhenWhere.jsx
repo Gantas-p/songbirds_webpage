@@ -1,7 +1,7 @@
 import { SESSION, VENUE } from '../config'
 
 export default function WhenWhere() {
-  const address = `${VENUE.name}, ${VENUE.streetAddress}, ${VENUE.locality}, ${VENUE.postalCode}`
+  const address = `${VENUE.name}, ${VENUE.streetAddress}, ${VENUE.locality}, ${VENUE.postTown} ${VENUE.postalCode}`
 
   return (
     <section id="when-where" className="section when-where">
@@ -24,7 +24,7 @@ export default function WhenWhere() {
                 <br />
                 {VENUE.streetAddress}, {VENUE.locality}
                 <br />
-                {VENUE.region} {VENUE.postalCode}
+                {VENUE.postTown} {VENUE.postalCode}
               </address>
               <a href={VENUE.mapUrl} target="_blank" rel="noopener noreferrer">
                 Open in maps
@@ -34,9 +34,9 @@ export default function WhenWhere() {
           <div>
             <dt>Getting there</dt>
             <dd>
-              There is free parking on nearby streets and the st Andrews centre is across the road
-              from a number 8 bus stop. The main entrance is step
-              free, however the hall is up one flight of stairs.
+              There is free parking on nearby streets and the Centre is across
+              the road from a number 8 bus stop. The main entrance is step free,
+              however the hall is up one flight of stairs.
             </dd>
           </div>
           <div>

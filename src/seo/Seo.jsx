@@ -12,7 +12,7 @@ const TITLE = 'Histon Songbirds | Women’s Singing Group in Histon, Cambridge'
 
 const DESCRIPTION =
   'A calm, welcoming singing group for women and mothers in Histon, near Cambridge. ' +
-  'We meet on Monday evenings at St Andrew’s Church during term time. ' +
+  'We meet on Monday evenings at St Andrew’s Centre during term time. ' +
   'No experience or audition needed — just come and sing.'
 
 const OG_IMAGE = `${SITE.url}/og-image.png`

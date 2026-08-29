@@ -32,14 +32,15 @@ export const SESSION = {
 
 // Where the group meets.
 export const VENUE = {
-  name: 'St Andrew’s Church',
-  streetAddress: 'Church Street',
+  name: 'St Andrew’s Centre',
+  streetAddress: 'School Hill',
   locality: 'Histon',
-  region: 'Cambridgeshire',
-  postalCode: 'CB24 9EP',
+  postTown: 'Cambridge', // Royal Mail post town for the address line
+  region: 'Cambridgeshire', // county, used in the structured data
+  postalCode: 'CB24 9JE',
   country: 'GB',
   // A plain link to a map (opens in a new tab). No tracking embed.
-  mapUrl: 'https://www.google.com/maps/search/?api=1&query=St+Andrew%27s+Church+Histon+CB24+9EP',
+  mapUrl: 'https://www.google.com/maps/search/?api=1&query=St+Andrew%27s+Centre+School+Hill+Histon+CB24+9JE',
 }
 
 // The contact form is handled by Formspree (formspree.io). Messages are

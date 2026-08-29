@@ -31,7 +31,7 @@ export const FAQ = [
   },
   {
     q: 'Where exactly do you meet, and is there parking?',
-    a: 'We meet at St Andrew’s centre on School Hill in Histon. The room is up the stairs on the right once you enter the building. Look out for signs! There is free street parking nearby and the centre is a short walk from the no 8 bus stop.',
+    a: 'We meet at St Andrew’s Centre on School Hill in Histon (postcode CB24 9JE). The room is up the stairs on the right once you enter the building. Look out for signs! There is free street parking nearby and the Centre is a short walk from the no 8 bus stop.',
   },
   {
     q: 'Do you meet during the school holidays?',
