@@ -8,13 +8,17 @@ export default function About() {
         <h2>About us</h2>
         <p>
           Histon Songbirds is a friendly women’s singing circle in the village of
-          Histon, just north of Cambridge. We meet every Monday during
-          term time to sing together — a mix of gentle harmonies,
+          Histon, just north of Cambridge. We meet on Mondays during
+          term time to sing together — a mix of harmonies,
           rounds and uplifting songs.
         </p>
         <p>
-          It began as a small group of friends who wanted an excuse to get together and
-          do something that lifts the spirits. That is still the heart of it.
+          There are no auditions and no pressure to perform. 
+          The songs are taught by ear, in a "call-and-response" style. 
+          If you have been meaning to sing again, or to try for the first time, 
+          this is a safe place to start.
+        </p>
+        <p>
           You do not need to be a singer — all voices are welcome.
         </p>
         <p>
