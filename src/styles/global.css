@@ -181,6 +181,9 @@ h3 {
 
 .site-header__book {
   flex: none;
+  /* stays after the nav links; when it wraps to its own line on narrow
+     screens it sits at the right edge, not orphaned on the left */
+  margin-left: auto;
   background: var(--accent-strong);
   color: #fff;
   text-decoration: none;
@@ -197,15 +200,10 @@ h3 {
 }
 
 @media (max-width: 32rem) {
-  /* stack, with Book above the wrapped menu links */
+  /* let the actions row fill the width so Book lands hard right, on its own
+     line below the wrapped menu links */
   .site-header__actions {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.7rem;
-  }
-
-  .site-header__book {
-    order: -1;
+    width: 100%;
   }
 }
 
