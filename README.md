@@ -52,9 +52,11 @@ public/
   robots.txt, sitemap.xml
 ```
 
-The contact form posts to **[Formspree](https://formspree.io)** — the one
-third-party service the site uses. Messages go to the address configured in the
-Formspree dashboard; see [CONTENT.md](./CONTENT.md).
+Third-party services (the only two): the contact form posts to
+**[Formspree](https://formspree.io)** (messages go to the address set in the
+Formspree dashboard — see [CONTENT.md](./CONTENT.md)), and **Cloudflare Web
+Analytics** (a cookieless beacon in `index.html`, no personal data, no consent
+banner needed).
 
 ## Branches & deployment
 
