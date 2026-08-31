@@ -1,7 +1,8 @@
-import { SITE } from '../config'
+import { SITE, BOOKING_URL } from '../config'
 
-// A quiet header: the group's name and a short in-page menu. On small screens
-// the menu sits below the name and wraps. No dropdowns, no JavaScript.
+// A quiet header: the group's name, a short in-page menu, and a Book button.
+// On small screens the menu sits below the name and wraps. No dropdowns, no
+// JavaScript.
 const LINKS = [
   { href: '#about', label: 'About' },
   { href: '#when-where', label: 'When & where' },
@@ -18,15 +19,29 @@ export default function SiteHeader() {
           <img className="site-header__mark" src="/images/bird-mark.png" alt="" />
           {SITE.name}
         </a>
-        <nav className="site-header__nav" aria-label="Sections">
-          <ul>
-            {LINKS.map(({ href, label }) => (
-              <li key={href}>
-                <a href={href}>{label}</a>
-              </li>
-            ))}
-          </ul>
-        </nav>
+
+        <div className="site-header__actions">
+          <nav className="site-header__nav" aria-label="Sections">
+            <ul>
+              {LINKS.map(({ href, label }) => (
+                <li key={href}>
+                  <a href={href}>{label}</a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          {BOOKING_URL && (
+            <a
+              className="site-header__book"
+              href={BOOKING_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Book
+            </a>
+          )}
+        </div>
       </div>
     </header>
   )

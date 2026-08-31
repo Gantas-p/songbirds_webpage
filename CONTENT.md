@@ -15,23 +15,19 @@ you cannot damage anything permanently, every version is saved in git.
 Open **`src/config.js`**. Everything in there is meant to be edited. Each setting
 has a note above it explaining what it is. The important ones:
 
-### Add the Eventbrite booking link
+### Change the booking link
 
 Find this line:
 
 ```js
-export const EVENTBRITE_URL = ''
+export const BOOKING_URL = 'https://buytickets.at/histonsongbirds'
 ```
 
-Paste your Eventbrite address between the quotes:
-
-```js
-export const EVENTBRITE_URL = 'https://www.eventbrite.co.uk/e/your-event-12345'
-```
-
-While it is empty, the site shows a calm "Booking opens soon" note instead of a
-button. As soon as you add the link, every "Book your place" button on the page
-starts working.
+Paste the new booking page address between the quotes (currently a
+TicketTailor page). If you set it to `''` (empty), the site hides the Book
+buttons and shows a calm "Booking opens soon" note instead — nothing breaks.
+As soon as there's a link, every "Book" button on the page and in the header
+points to it.
 
 ### Change the day or time
 

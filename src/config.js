@@ -49,11 +49,10 @@ export const VENUE = {
 // the last part of its endpoint URL (https://formspree.io/f/THIS).
 export const FORMSPREE_ID = 'xbgjlpwl'
 
-// Paste your Eventbrite link between the quotes when it is ready, e.g.
-//   export const EVENTBRITE_URL = 'https://www.eventbrite.co.uk/e/....'
-// While it is empty, the site shows a calm "Booking opens soon" note instead
-// of a broken button.
-export const EVENTBRITE_URL = 'https://buytickets.at/histonsongbirds'
+// The booking page (currently TicketTailor). Paste the full link between the
+// quotes. While it is empty, the site shows a calm "Booking opens soon" note
+// and hides the Book buttons instead of showing a broken link.
+export const BOOKING_URL = 'https://buytickets.at/histonsongbirds'
 
 // Social pages, if/when they exist. Leave as empty strings to hide them.
 export const SOCIAL = {
