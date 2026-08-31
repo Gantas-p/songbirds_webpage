@@ -350,6 +350,13 @@ main {
   color: var(--text-muted);
 }
 
+/* The "Join us" button sits straight after a paragraph, so it needs its own
+   top margin (the hero and contact form space their buttons with flex gap).
+   Matches the gap .cta-pending already leaves. */
+.join__cta {
+  margin-top: 1.75rem;
+}
+
 /* --- definition lists (when & where, faq) -------------------------- */
 
 /* Both lists use the same treatment: the term is a bold serif label, the
