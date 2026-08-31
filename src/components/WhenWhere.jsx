@@ -1,4 +1,4 @@
-import { SESSION, VENUE } from '../config'
+import { VENUE } from '../config'
 
 export default function WhenWhere() {
   const address = `${VENUE.name}, ${VENUE.streetAddress}, ${VENUE.locality}, ${VENUE.postTown} ${VENUE.postalCode}`
