@@ -18,15 +18,21 @@ export default function About() {
           If you have been meaning to sing again, or to try for the first time, 
           this is a safe place to start.
         </p>
-        <p>
-          You do not need to be a singer — all voices are welcome.
+        <p style={{ color: "#177123" }}>
+          <strong>You do not need to be a singer — all voices are welcome.</strong>
         </p>
         <p>
-          There is no audition and no pressure to perform.
-          The songs are taught by ear, in a "call-and-response" style.
-          If you have been meaning to sing again, or to try for the first time,
-          this is a safe place to start.
+          The group started in my living room with some close friends 
+          and my then tiny daughter (and occassionally my big kid, 
+          although he was more interested in the biscuits than the singing!) 
+          We sang together with varying degrees of success, 
+          sometimes it sounded great….other times it descended into laughter, 
+          but we always left feeling energised. 
         </p>
+        <p>
+          Please note that babies and young children are very welcome to join.
+        </p>
+       
       </div>
     </section>
   )

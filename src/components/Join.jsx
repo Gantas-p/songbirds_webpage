@@ -6,13 +6,10 @@ export default function Join() {
       <div className="section__body">
         <h2>Join us</h2>
         <p>
-         New members are always welcome.
-         Sessions cost £7, please book your space here: Link
-         
-         If this is your first time joining us, we offer a free trial session, please <a href="#contact">get in touch</a> to book 
-         
-          
-          .
+        New members are always welcome and I am happy to offer a free trial 
+        session (select “Free Trial” option on booking page). 
+
+         Sessions cost £7 per person, per session.
         </p>
         <p>
           If cost is ever a barrier, please <a href="#contact">tell us</a> — we will always try to

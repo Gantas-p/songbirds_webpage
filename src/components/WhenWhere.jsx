@@ -12,8 +12,7 @@ export default function WhenWhere() {
           <div>
             <dt>When</dt>
             <dd>
-              {SESSION.dayText} at {SESSION.timeText}, {SESSION.termText}.{' '}
-              {SESSION.arriveText}.
+              Mondays 7.30 pm - 9pm during term time.  
             </dd>
           </div>
           <div>
@@ -37,12 +36,13 @@ export default function WhenWhere() {
               There is free parking on nearby streets and the Centre is across
               the road from a number 8 bus stop. The main entrance is step free,
               however the hall is up one flight of stairs.
+
             </dd>
           </div>
           <div>
             <dt>What to bring</dt>
             <dd>
-              Just yourself and a bottle of water.
+              Just yourself.
             </dd>
           </div>
                     <div>

@@ -53,7 +53,7 @@ export const FORMSPREE_ID = 'xbgjlpwl'
 //   export const EVENTBRITE_URL = 'https://www.eventbrite.co.uk/e/....'
 // While it is empty, the site shows a calm "Booking opens soon" note instead
 // of a broken button.
-export const EVENTBRITE_URL = ''
+export const EVENTBRITE_URL = 'https://buytickets.at/histonsongbirds'
 
 // Social pages, if/when they exist. Leave as empty strings to hide them.
 export const SOCIAL = {
