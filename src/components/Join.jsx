@@ -9,10 +9,10 @@ export default function Join() {
         New members are always welcome and I am happy to offer a free trial 
         session (select “Free Trial” option on booking page). 
 
-         Sessions cost £7 per person, per session.
+         Sessions cost £7 per person, per session, plus 60p booking fee.
         </p>
         <p>
-          If cost is ever a barrier, please <a href="#contact">tell us</a> — we will always try to
+          If cost is ever a barrier, please <a href="#contact">tell me</a> — I will always try to
           help.
         </p>
         <CtaButton className="join__cta" />

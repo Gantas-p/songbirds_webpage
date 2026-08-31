@@ -42,7 +42,7 @@ export default function WhenWhere() {
           <div>
             <dt>What to bring</dt>
             <dd>
-              Just yourself.
+              Just yourself. There is a small kitchen for water.
             </dd>
           </div>
                     <div>

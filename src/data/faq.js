@@ -6,12 +6,16 @@
 
 export const FAQ = [
   {
-    q: 'Do I need to be able to sing, or read music?',
-    a: 'No. You do not need to read music or have any training. If you can hum along to a song on the radio, you can sing with us. We learn everything by ear, together.',
+    q: 'What is a Singing circle?',
+    a: 'A singing circle is a community gathering where people sit or stand in a circle and sing together for connection, wellness and shared expression rather than for performance or concert preparation. I try to choose songs which are uplifting, meaningful and leave us with a sense of empowerment to get us through the rest of the week! I am also open to song suggestions in advance or on the day.'
   },
   {
-    q: 'What is a Singing circle?',
-    a: 'A singing circle is a community gathering where people sit or stand in a circle and sing together for connection, wellness and shared expression rather than for performance or concert preparation ',
+    q: 'Do I need to be able to sing, or read music?',
+    a: 'No. You do not need to read music or have any training. We learn everything by ear, together.',
+  },
+  {
+    q: 'What do sessions involve?',
+    a: 'After a short warm up we will sing for 45mins – 1 hour. There will be some time at the end to chat. I’ll bring some different herbal teas and some biscuits. We have the room until 9 pm.'
   },
   {
     q: 'Do I need to audition?',
@@ -19,15 +23,15 @@ export const FAQ = [
   },
   {
     q: 'I have never sung in a group before. Is that ok?',
-    a: 'That is completely welcome. Many of the women who come have not sung since school, or have never sung with other people at all. You will be among friends.',
+    a: 'Yes! Many of the women who come have not sung since school, or have never sung with other people at all. You will be among friends.',
   },
   {
     q: 'Can I bring my baby or my children?',
-    a: 'Yes. Babies, toddlers and children are welcome to come along with you. This is a group for women and mothers, and family life is part of it.',
+    a: 'Yes. Babies, toddlers and children are welcome to come along with you. This is a group for women and mothers, and family life is part of it. The hall is quite sparse and quite small. So you might want to bring something to keep them entertained.'
   },
   {
     q: 'How much does it cost?',
-    a: '£7 per session. If cost is ever a barrier, please get in touch — we will always try to help.',
+    a: 'You are welcome to come for a free taster session to see if this is for you. After that, sessions cost £7 per person, per session plus 60p booking fee, to cover the cost of the hall and light refreshments. If cost is ever a barrier, please get in touch — I will always try to help.'
   },
   {
     q: 'Where exactly do you meet, and is there parking?',
