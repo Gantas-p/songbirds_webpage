@@ -157,6 +157,7 @@ h3 {
 .site-header__nav ul {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.4rem 1.15rem;
   list-style: none;
   padding: 0;
@@ -172,21 +173,11 @@ h3 {
   color: var(--text);
 }
 
-.site-header__actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5rem 1.25rem;
-}
-
-.site-header__book {
-  flex: none;
-  /* stays after the nav links; when it wraps to its own line on narrow
-     screens it sits at the right edge, not orphaned on the left */
-  margin-left: auto;
+/* The Book link is the last item in the menu, so it flows right after
+   "Contact" and wraps with the rest instead of floating off on its own. */
+.site-header__nav a.site-header__book {
   background: var(--accent-strong);
   color: #fff;
-  text-decoration: none;
   font-size: 0.9rem;
   line-height: 1;
   padding: 0.45rem 0.95rem;
@@ -194,17 +185,9 @@ h3 {
   transition: background 150ms ease;
 }
 
-.site-header__book:hover {
+.site-header__nav a.site-header__book:hover {
   background: var(--text);
   color: #fff;
-}
-
-@media (max-width: 32rem) {
-  /* let the actions row fill the width so Book lands hard right, on its own
-     line below the wrapped menu links */
-  .site-header__actions {
-    width: 100%;
-  }
 }
 
 /* --- shared section layout -------------------------------------------- */

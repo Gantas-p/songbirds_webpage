@@ -1,8 +1,8 @@
 import { SITE, BOOKING_URL } from '../config'
 
-// A quiet header: the group's name, a short in-page menu, and a Book button.
-// On small screens the menu sits below the name and wraps. No dropdowns, no
-// JavaScript.
+// A quiet header: the group's name, a short in-page menu, and a Book link at
+// the end of it. On small screens the menu sits below the name and wraps. No
+// dropdowns, no JavaScript.
 const LINKS = [
   { href: '#about', label: 'About' },
   { href: '#when-where', label: 'When & where' },
@@ -20,28 +20,27 @@ export default function SiteHeader() {
           {SITE.name}
         </a>
 
-        <div className="site-header__actions">
-          <nav className="site-header__nav" aria-label="Sections">
-            <ul>
-              {LINKS.map(({ href, label }) => (
-                <li key={href}>
-                  <a href={href}>{label}</a>
-                </li>
-              ))}
-            </ul>
-          </nav>
-
-          {BOOKING_URL && (
-            <a
-              className="site-header__book"
-              href={BOOKING_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Book
-            </a>
-          )}
-        </div>
+        <nav className="site-header__nav" aria-label="Menu">
+          <ul>
+            {LINKS.map(({ href, label }) => (
+              <li key={href}>
+                <a href={href}>{label}</a>
+              </li>
+            ))}
+            {BOOKING_URL && (
+              <li>
+                <a
+                  className="site-header__book"
+                  href={BOOKING_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Book
+                </a>
+              </li>
+            )}
+          </ul>
+        </nav>
       </div>
     </header>
   )
