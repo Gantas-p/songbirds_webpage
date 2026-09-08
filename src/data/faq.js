@@ -31,7 +31,7 @@ export const FAQ = [
   },
   {
     q: 'How much does it cost?',
-    a: 'You are welcome to come for a free taster session to see if this is for you. After that, sessions cost £7 per person, per session plus 60p booking fee, to cover the cost of the hall and light refreshments. If cost is ever a barrier, please get in touch — I will always try to help.'
+    a: 'Sessions are free- We welcome donations to help cover the cost of the hall. A contribution of £5 is suggested, but any amount you wish to give is greatly appreciated. I am in the process of exploring community grants to cover the cost of the hall, so that we can keep the sessions free for everyone. If you would like to support this, please get in touch.',
   },
   {
     q: 'Where exactly do you meet, and is there parking?',
