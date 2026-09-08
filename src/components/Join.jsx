@@ -6,14 +6,15 @@ export default function Join() {
       <div className="section__body">
         <h2>Join us</h2>
         <p>
-        New members are always welcome and I am happy to offer a free trial 
-        session (select “Free Trial” option on booking page). 
+        New members are always welcome. Please book your space below.
+        Sessions are free- We welcome donations to help cover the cost of the hall. 
+        A contribution of £5 is suggested, but any amount you wish to give is greatly appreciated.
 
-         Sessions cost £7 per person, per session, plus 60p booking fee.
+ 
+
         </p>
         <p>
-          If cost is ever a barrier, please <a href="#contact">tell me</a> — I will always try to
-          help.
+          
         </p>
         <CtaButton className="join__cta" />
       </div>
