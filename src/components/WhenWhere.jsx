@@ -48,7 +48,7 @@ export default function WhenWhere() {
                     <div>
             <dt>Upcoming dates</dt>
             <dd>
-              5th October, 12th October, 19th October
+              2nd November, 9th November, 16th November, 23rd November, 30th November
             </dd>
           </div>
         </dl>
