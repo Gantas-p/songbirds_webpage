@@ -18,7 +18,7 @@ export default function Hero() {
 
           <p className="hero__lede">
             A relaxed evening of singing together for women. No experience, no
-            audition, no need to read music. Come as you are, sing, and go home
+            auditions, no need to read music. Come as you are, sing, and go home
             feeling lighter.
           </p>
 

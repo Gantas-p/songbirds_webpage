@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="site-footer">
       <p className="site-footer__line">
-        {SITE.name} — a singing group for women and mothers in {VENUE.locality},
+        {SITE.name} — a singing group for women in {VENUE.locality},
         Cambridgeshire.
       </p>
       <p className="site-footer__meta">

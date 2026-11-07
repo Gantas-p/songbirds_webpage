@@ -10,12 +10,20 @@ export const FAQ = [
     a: 'A singing circle is a community gathering where people sit or stand in a circle and sing together for connection, wellness and shared expression rather than for performance or concert preparation. I try to choose songs which are uplifting, meaningful and leave us with a sense of empowerment to get us through the rest of the week! I am also open to song suggestions in advance or on the day.'
   },
   {
+    q: 'Who is this for?',
+    a: 'We welcome all who identify as women, including trans women. We are a friendly and inclusive group, and we welcome people of all ages, backgrounds and abilities.',
+  },
+  {
+     q: 'Is the venue accessible?',
+    a: 'The hall is up two flights of stairs.',
+  },
+  {
     q: 'Do I need to be able to sing, or read music?',
     a: 'No. You do not need to read music or have any training. We learn everything by ear, together.',
   },
   {
     q: 'What do sessions involve?',
-    a: 'After a short warm up we will sing for 45mins – 1 hour. There will be some time at the end to chat. I’ll bring some different herbal teas and some biscuits. We have the room until 9 pm.'
+    a: 'After a short warm up we will sing for 45mins – 1 hour. There will be some time at the end to chat. I’ll bring some different herbal teas and some snacks. We have the room until 9 pm.'
   },
   {
     q: 'Do I need to audition?',
@@ -31,7 +39,7 @@ export const FAQ = [
   },
   {
     q: 'How much does it cost?',
-    a: 'Sessions are free- We welcome donations to help cover the cost of the hall. A contribution of £5 is suggested, but any amount you wish to give is greatly appreciated. I am in the process of exploring community grants to cover the cost of the hall, so that we can keep the sessions free for everyone. If you would like to support this, please get in touch.',
+    a: 'Sessions are free- We welcome donations to help cover the cost of the hall. A contribution of £5 is suggested, but any amount you wish to give is greatly appreciated. I am in the process of exploring community grants to cover the cost of the hall, so that I can keep the sessions free for everyone. If you would like to support this, please get in touch.',
   },
   {
     q: 'Where exactly do you meet, and is there parking?',

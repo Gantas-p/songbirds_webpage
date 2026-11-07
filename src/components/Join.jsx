@@ -6,7 +6,7 @@ export default function Join() {
       <div className="section__body">
         <h2>Join us</h2>
         <p>
-        New members are always welcome. Please book your space below.
+        New members are always welcome. Please reserve your space below.
         Sessions are free- We welcome donations to help cover the cost of the hall. 
         A contribution of £5 is suggested, but any amount you wish to give is greatly appreciated.
 
